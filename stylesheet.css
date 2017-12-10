@@ -45,6 +45,14 @@ body, html {
 	display: block;
 	text-align:center;
 }
+.footer a {
+	float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 footer {
 	
 	position: fixed;
