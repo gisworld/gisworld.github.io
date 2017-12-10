@@ -42,7 +42,10 @@ body, html {
 	}
 
 <!--footer style-->
-
+.footer{
+	display: block;
+	text-align:center;
+}
 footer {
 	
 	position: fixed;
@@ -51,7 +54,7 @@ footer {
 	width:100%;
     padding: 10px;
 	
-	  border-top: 1px solid #0000ff;
+	border-top: 1px solid #0000ff;
 	border-bottom: 1px solid #0000ff;
 	background-color: #3366ff;}
 	
