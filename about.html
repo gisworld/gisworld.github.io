@@ -9,10 +9,10 @@
 Agent Based Modeling
 </title>
 </head>
-<H1>Assessment 1 - Agent Based Model </H1>
 <style>
 <!-- Style code has been altered from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active -->
-ul {
+* {font-family: Arial}
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,11 +20,8 @@ ul {
     background-color: #3366ff;
 }
 
-li {
-    float: left;
-}
-
-li a {
+.nav a {
+	float: left;
     display: block;
     color: white;
     text-align: center;
@@ -32,24 +29,37 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.nav a:hover:not(.active) {
     background-color: #99b3ff;
 }
 
 .active {
     background-color: #cc33ff;
+	<!--responsive design element from w3schools.com-->
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+<!--footer style-->
+.footer {
+    padding: 10px;
+    text-align: center;
 }
 </style>
 </head>
 <body>
+<div class="header">
+<H1>Assessment 1 - Agent Based Model </H1>
+</div>
+<div class="nav">
 
-<ul>
-<li><a class="active" href="index.html"> Home </a></li>
-<li><a href="/"> About </a></li>
-<li><a href="resources.html"> Resources </a></li>
-</ul>
+<a class="active" href="index.html"> Home </a>
+<a href="/"> About </a>
+<a href="resources.html"> Resources </a>
 
-<section>
+</div>
+<div>
 <h3> Amanda Forbes </h3>
 <p> I am currently a GIS Analyst/Developer at SeaRoc Group Ltd </p>
 <h4> Current responsibilities </h4>
@@ -71,10 +81,9 @@ ArcPy and PyQGIS for geoprocessing </p>
 <p> I started out as an intern at Esri South Africa in the Professional Services department progressing to Junior Developer position. My responsibilities included: data manipulation, 
 data cleansing, map creation, web mapping using the Flex API, providing training for Esri courses and creating bespoke tools using ArcObjects. /n
 The main industries I was involved with were: mining, electricity generation and municipalities.
-</div id="footer">
-<footer>
+</div>
+<div id="footer">
 <a href="www.linkedin.com/in/amandajaneforbes"></a>
-</footer>
 </div>
 
 </body>
