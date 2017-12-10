@@ -6,6 +6,10 @@
 }
 body, html {
 	height: 100%;}
+
+body {
+	overflow:scroll;
+}
 .header {
     padding: 20px;
     text-align: center;
@@ -46,8 +50,6 @@ body, html {
 	text-align:center;
 }
 .footer a {
-	float: center;
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -59,7 +61,6 @@ footer {
 	left:0;
 	width:100%;
     padding: 10px;
-	
 	border-top: 1px solid #0000ff;
 	border-bottom: 1px solid #0000ff;
 	background-color: #3366ff;}
