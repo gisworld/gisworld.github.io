@@ -16,7 +16,7 @@ body {
 }
 .main {
     padding: 20px;
-	margin-left: 200px
+	margin-left: 200px;
     text-align: left;
 }
 .nav {
@@ -56,13 +56,12 @@ body {
     text-decoration: none;
 }
 footer {	
+	text-align:center;
 	position: fixed;
 	bottom:0;
 	left:0;
 	width:100%;
     padding: 10px;
-	border-top: 1px solid #0000ff;
-	border-bottom: 1px solid #0000ff;
 	background-color: #3366ff;}
 	
 img{float: right;
