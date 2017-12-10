@@ -6,7 +6,8 @@
 }
 body, html {
 	height: 100%;
-	overflow:auto;}
+	overflow:hidden;
+	}
 
 .header {
     padding: 20px;
@@ -16,6 +17,7 @@ body, html {
     padding: 20px;
 	/* margin-left: 200px; */
     text-align: left;
+	overflow:auto;
 }
 .nav {
     list-style-type: none;
