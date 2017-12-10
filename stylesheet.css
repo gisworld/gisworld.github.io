@@ -1,0 +1,55 @@
+<!-- Style code has been altered from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active -->
+* {
+	font-family: Arial;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+}
+.main {
+    padding: 20px;
+	margin-left: 200px
+    text-align: left;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3366ff;
+}
+
+.nav a {
+	float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover:not(.active) {
+    background-color: #99b3ff;
+}
+
+.active {
+    background-color: #0000ff;
+	}
+	<!--responsive design element from w3schools.com-->
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+<!--footer style-->
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+html { height: 100%; }
+img{float: right;
+width:170px;
+height:170px;
+margin-left:15px;}
