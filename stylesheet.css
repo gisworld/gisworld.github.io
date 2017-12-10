@@ -42,15 +42,18 @@ body, html {
 	}
 
 <!--footer style-->
-.footer {
+
+footer {
 	display: block;
-    text-align: center;
-}
-footer {position: fixed;
+	position: fixed;
 	bottom:0;
 	left:0;
 	width:100%;
-    padding: 10px;}
+    padding: 10px;
+	text-align: center;
+	  border-top: 1px solid #0000ff;
+	border-bottom: 1px solid #0000ff;
+	background-color: #3366ff;}
 	
 img{float: right;
 width:200px;
