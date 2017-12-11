@@ -2,9 +2,12 @@
 
 html {
 	height: 100%;
-	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 5%;
 	margin-right: 5%;
+	}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
 	}
 
 .header {
@@ -12,7 +15,7 @@ html {
     padding: 10px;
 	height:5%;
     text-align: center;
-}
+	}
 .main {
 	font-size: 13px;
     padding: 10px;
@@ -71,7 +74,7 @@ footer {
 	}
 	/*To stop the content hiding behind the footer*/
 .space {
-	height:10%;
+	height:12%;
 }
 img{
 float: right;
@@ -84,7 +87,9 @@ margin-left:15px;}
   background: #007bb5;
   color: white;
 }
-.fa-envelope
-{  background: grey;
-  color: white;}
+.fa-envelope{  
+  background: grey;
+  color: white;
+  }
+ 
 .intlist {margin-left:10%;}
