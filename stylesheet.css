@@ -68,3 +68,8 @@ img{float: right;
 width:200px;
 height:260px;
 margin-left:15px;}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
