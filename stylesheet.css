@@ -69,6 +69,10 @@ footer {
 	background-color: white;
 	border-top: 1px solid  #3366ff;
 	}
+	/*To stop the content hiding behind the footer*/
+.space {
+	height:10%;
+}
 img{
 float: right;
 width:150px;
