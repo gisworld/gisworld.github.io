@@ -64,11 +64,6 @@ Based on https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizont
     background-color: #0000ff;
 }
 
-/*Footer style 
-.footer{
-	display: block;
-	text-align:center;
-}*/
 /*Footer hyperlink style */
 .footer a {
     color: white;
@@ -85,7 +80,7 @@ footer {
 	bottom:0;
 	left:0;
 	width:100%;
-    padding: 5px;
+    padding: 2px;
 	padding-bottom: 10px;
 	height:8%;
 	background-color: white;
@@ -117,5 +112,11 @@ img{
 .fa-envelope{  
 	background: grey;
 	color: white;
+ }
+ /*Attribution text */
+ .attribution{
+	 color: grey;
+	 font-size: 10;
+	 
  }
  
