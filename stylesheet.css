@@ -1,21 +1,29 @@
-<!-- Style code has been altered from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active -->
-
+/*
+Stylesheet associated with https://gisworld.github.io
+Created for the purposes of GEOG5991M: Assessment 1 
+References have been noted by styles. 
+Main references used:
+	- https://w3schools.com/css
+	- Icons supplied by Font Awesome by Dave Gandy - http://fontawesome.io
+*/
+/*Ensure webpage takes up full height with margins */
 html {
 	height: 100%;
 	margin-left: 5%;
 	margin-right: 5%;
 	}
-
+/*Setting font style for whole webpage */
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	}
-
+/*Header style */
 .header {
 	font-size: 16px;
     padding: 10px;
 	height:5%;
     text-align: center;
 	}
+/*Style of main section. Includes scroll bars if required. */
 .main {
 	font-size: 13px;
     padding: 10px;
@@ -23,6 +31,9 @@ body{
     text-align: left;
 	overflow:auto;
 }
+/*Style of navigation bar 
+Based on https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active
+*/
 .nav {
 	font-size: 16px;
     list-style-type: none;
@@ -31,7 +42,9 @@ body{
     overflow: hidden;
     background-color: #3366ff;
 }
-
+/*Hyperlink style of navigation links 
+Based on https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active
+*/
 .nav a {
 	float: left;
     display: block;
@@ -40,27 +53,32 @@ body{
     padding: 14px 16px;
     text-decoration: none;
 }
-
+/*Hover colour on navigation bar 
+Based on https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active
+*/
 .nav a:hover:not(.active) {
     background-color: #99b3ff;
 }
-
+/*Active link to be shown in different colour */
 .active {
     background-color: #0000ff;
-	}
+}
 
-<!--footer style-->
+/*Footer style 
 .footer{
 	display: block;
 	text-align:center;
-}
+}*/
+/*Footer hyperlink style */
 .footer a {
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+/*Footer to contain Contact links */
 footer {
+	display: block;
 	font-size: 16px;	
 	text-align:center;
 	position: fixed;
@@ -68,28 +86,36 @@ footer {
 	left:0;
 	width:100%;
     padding: 5px;
+	padding-bottom: 10px;
 	height:8%;
 	background-color: white;
 	border-top: 1px solid  #3366ff;
-	}
-	/*To stop the content hiding behind the footer*/
+}
+/*To stop the content hiding behind the footer*/
 .space {
 	height:20%;
 }
+/*Photograph style to place image on right hand side */	
 img{
-float: right;
-width:150px;
-height:195px;
-margin-left:15px;}
-
-.intlist {margin-left:10%;}
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+	float: right;
+	width:150px;
+	height:195px;
+	margin-left:15px;
 }
+/*Instructions list on Home page */
+.intlist {
+	margin-left:10%;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
+/*Icons supplied by Font Awesome by Dave Gandy - http://fontawesome.io */
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+ }
+/*Code is based on the above but not copied from w3schools */ 
 .fa-envelope{  
-  background: grey;
-  color: white;
-  }
+	background: grey;
+	color: white;
+ }
  
